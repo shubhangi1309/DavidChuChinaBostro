@@ -1,0 +1,17 @@
+<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+  <a href="#" onClick="loadMenuItems('{{short_name}}');">
+    <div class="category-tile">
+      <img
+        width="200"
+        height="200"
+        src="images/menu/{{short_name}}/{{short_name}}.jpg"
+        alt="{{name}}"
+      /><span>{{name}}</span>
+    </div>
+  </a>
+</div>
+
+<!-- somehow we'll grab this entire html as string using Ajax request -->
+
+<!-- we need to then substitute every prop that has these mustaches({{}}) 
+    with a value insert property is going to do that -->
